@@ -25,7 +25,7 @@ so it look like this:
 In the `APPNAMEAppDelegate.m` add the following:
 
 ```Obj-c
-// Set AudioSession`
+// Set AudioSession
 NSError *sessionError = nil;
 [[AVAudioSession sharedInstance] setDelegate:self];
 [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:&sessionError];
