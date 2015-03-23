@@ -2,26 +2,22 @@
 
 Replace `APPNAME` with your own app name!
 
-Im on iOS 4.2.1
+Add `UIBackgroundModes` in the `APPNAME-Info.plist`, with the selection `App plays audio`
 
-EDIT: Working with iOS5 + 6 + 7 beta so far
+Then add the `AudioToolBox framework` to the folder `frameworks`.
 
-Add UIBackgroundModes in the APPNAME-Info.plist, with the selection App plays audio
+In the `APPNAMEAppDelegate.h` add:
 
-Then add the AudioToolBox framework to the folder frameworks.
-
-In the APPNAMEAppDelegate.h add:
-
-#import <AVFoundation/AVFoundation.h>
-#import <AudioToolbox/AudioToolbox.h>
+`#import <AVFoundation/AVFoundation.h>`
+`#import <AudioToolbox/AudioToolbox.h>`
 
 so it look like this:
-
+`
 ...
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 #import <AudioToolbox/AudioToolbox.h>
-...
+...`
 
 In the APPNAMEAppDelegate.m add the following:
 
