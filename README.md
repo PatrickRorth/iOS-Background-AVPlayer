@@ -55,4 +55,6 @@ but before the two lines:
 
 Build your project and see if theres any error, If not, try debug on Device insted of the Simulator, the simulator can bug.
 
-Hope this helps
+Hope this helps.
+
+Find other solutions [here](http://stackoverflow.com/questions/4771105/how-do-i-get-my-avplayer-to-play-while-app-is-in-background/5253254#5253254)
