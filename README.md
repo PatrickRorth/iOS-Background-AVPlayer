@@ -40,7 +40,7 @@ UInt32 doChangeDefaultRoute = 1;
 AudioSessionSetProperty(kAudioSessionProperty_OverrideCategoryDefaultToSpeaker, sizeof(doChangeDefaultRoute), &doChangeDefaultRoute);
 ```
 
-into the
+into
 
 ```Obj-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
