@@ -8,16 +8,19 @@ Then add the `AudioToolBox framework` to the folder **frameworks**.
 
 In the `APPNAMEAppDelegate.h` add:
 
-`#import <AVFoundation/AVFoundation.h>`
-`#import <AudioToolbox/AudioToolbox.h>`
+```Obj-c
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+```
 
 so it look like this:
-
-`...`
-`#import <UIKit/UIKit.h>`
-`#import <AVFoundation/AVFoundation.h>`
-`#import <AudioToolbox/AudioToolbox.h>`
-`...`
+```Obj-c
+...
+#import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+...
+```
 
 In the `APPNAMEAppDelegate.m` add the following:
 
